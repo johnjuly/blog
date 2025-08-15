@@ -6,12 +6,17 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "upload:img": "node tools/upload-cloudinary.mjs"
   },
   "dependencies": {
     "@astrojs/preact": "^4.1.0",
     "@astrojs/rss": "^4.0.12",
     "astro": "^5.12.9",
     "preact": "^10.27.0"
+  },
+  "devDependencies": {
+    "cloudinary": "^2.7.0",
+    "dotenv": "^17.2.1"
   }
 }
